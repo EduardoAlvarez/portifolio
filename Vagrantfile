@@ -116,4 +116,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   #
   #   chef.validation_client_name = "ORGNAME-validator"
   config.vm.box = "hashicorp/precise32"
+  config.vm.provision :shell, path: "bootstrap.sh"
+  config.vm.network :forwarded_port, host: 4567, guest: 80
 end
