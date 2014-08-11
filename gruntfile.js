@@ -1,18 +1,17 @@
 module.exports = function(grunt) {
 				grunt.initConfig({
 					less: {
-						development: {
-                options: {
-                    paths: ["./less"],
-                    yuicompress: true
-                },
-                files: {
-                    "./css/style.css": "./less/componemtes/header.less"
-                }
+							componentes: {/*arquivos que serão alterados quando forem salvos*/
+									src: 'less/componentes/*.less',
+									dest: 'css/componentes.css',
+              },
+              geral: {/*arquivos que serão alterados quando forem salvos*/
+									src: 'less/freelancer.less',
+									dest: 'css/freelancer.css',
               }
 						},
-						watch: {
-							files: "./less/*",
+						watch: {/*Arquivos que o Grunt vai ficar olhando*/
+							files: ["./less/*.less" ,"./less/**/*.less"],
 							tasks: ["less"]
 						}
 				});

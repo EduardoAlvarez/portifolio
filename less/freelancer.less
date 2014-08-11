@@ -148,15 +148,37 @@ header {
 		li {
 			a:focus {
 				outline: none;
+
+			}
+			&.active{
+				a{
+					background:none;
+				}
+			}
+			&.active:after{
+				content: "";
+				background:url('imagens/nav_contato.png') center no-repeat;
+				position: absolute;
+				height: 43px;
+				top: 70px;
+				left: 50%;
+				width: 135px;
+				padding: 0 9999px;
+				margin: 0 -9999px;
 			}
 		}
 	}
+}
+.navbar-default{
+	background-color:#005E52;
+	border-bottom:5px solid #EC5637 !important;
 }
 
 .navbar-default,
 .navbar-inverse {
 	border: none;
 }
+
 
 section {
     padding: 100px 0;
