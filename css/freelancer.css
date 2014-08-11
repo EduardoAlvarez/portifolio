@@ -99,7 +99,7 @@ header .intro-text .skills {
 }
 @media (min-width: 768px) {
   .navbar-fixed-top {
-    padding: 25px 0;
+    padding: 10px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;
@@ -145,8 +145,12 @@ header .intro-text .skills {
   padding: 0 9999px;
   margin: 0 -9999px;
 }
+.navbar .navbar-nav li.active a:hover {
+  background: none;
+  color: #18bc9c;
+}
 .navbar-default {
-  background-color: #005E52;
+  background-color: #2C3E50;
   border-bottom: 5px solid #EC5637 !important;
 }
 .navbar-default,

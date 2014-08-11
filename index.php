@@ -23,10 +23,10 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#portfolio">Sobre</a>
+                        <a href="#about">Sobre</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#about">Projetos</a>
+                        <a href="#portfolio">Projetos</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#contact">Contato</a>
@@ -42,25 +42,60 @@
     <header>
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
+                <div class='col-sm-6'>
+                    <h3>Resumo</h3>
+                    <p>
+                        Mussum ipsum cacilds, vidis litro abertis. 
+                        Consetis adipiscings elitis. Pra lá , depois 
+                        divoltis porris, paradis. Paisis, filhis, espiritis santis.
+                         Mé faiz elementum girarzis, nisi eros vermeio, 
+                         in elementis mé pra quem é amistosis quis leo. 
+                         Manduma pindureta quium dia nois paga. Sapien in 
+                         monti palavris qui num significa nadis i pareci 
+                         latim. Interessantiss quisso pudia ce receita de 
+                         bolis, mais bolis eu num gostis.
+                    </p>
+                    <hr class="star-light">
+                        <span class="skills">Desenvolvedor Web</span>
+                </div>
+                <div class='col-sm-6'>
                     <img class="img-responsive" src="img/profile.png" alt="">
                     <div class="intro-text">
-                        <span class="name">Start Bootstrap</span>
-                        <hr class="star-light">
-                        <span class="skills">Desenvolvedor Web</span>
+                        
+                        
                     </div>
                 </div>
+
             </div>
         </div>
     </header>
 
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
+    
+
+    <!-- About Section -->
+    <section  id="about">
+        <div class="container">
+            <div class="row">
+                  <div class='col-sm-6'>
+                    <img class="img-responsive" src="img/profile.png" alt="">
+                    <div class="intro-text">
+                    </div>
+                </div>
+                  <div class='col-sm-6'>
+                    <h3>--</h3>
+                    </div>
+                </div>
+            </div>
+             
+        </div>
+    </section>
+<!-- Portfolio Grid Section -->
+    <section class="success" id="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Portfolio</h2>
-                    <hr class="star-primary">
+                    <hr class="star-light">
                 </div>
             </div>
             <div class="row">
@@ -127,27 +162,6 @@
             </div>
         </div>
     </section>
-
-    <!-- About Section -->
-    <section class="success" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Sobre</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
-                </div>
-                <div class="col-lg-4">
-                    <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Contact Section -->
     <section id="contact">
         <div class="container">

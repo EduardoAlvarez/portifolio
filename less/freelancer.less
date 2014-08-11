@@ -103,6 +103,7 @@ header {
 		.container {
 			padding-top: 200px;
 			padding-bottom: 100px;
+
 		}
 		.intro-text {
 			.name {
@@ -117,7 +118,7 @@ header {
 
 @media(min-width:768px) {
     .navbar-fixed-top {
-        padding: 25px 0;
+        padding: 10px 0;
         -webkit-transition: padding 0.3s;
         -moz-transition: padding 0.3s;
         transition: padding 0.3s;
@@ -154,23 +155,27 @@ header {
 				a{
 					background:none;
 				}
-			}
-			&.active:after{
-				content: "";
-				background:url('imagens/nav_contato.png') center no-repeat;
-				position: absolute;
-				height: 43px;
-				top: 70px;
-				left: 50%;
-				width: 135px;
-				padding: 0 9999px;
-				margin: 0 -9999px;
+				&:after{
+					content: "";
+					background:url('imagens/nav_contato.png') center no-repeat;
+					position: absolute;
+					height: 43px;
+					top: 70px;
+					left: 50%;
+					width: 135px;
+					padding: 0 9999px;
+					margin: 0 -9999px;
+				}
+				a:hover{
+					background:none;
+					color:#18bc9c;
+				}
 			}
 		}
 	}
 }
 .navbar-default{
-	background-color:#005E52;
+	background-color:#2C3E50;
 	border-bottom:5px solid #EC5637 !important;
 }
 
