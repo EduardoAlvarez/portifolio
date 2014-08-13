@@ -2,6 +2,11 @@ header .btn {
   background: #0022ff;
 }
 
-body {
-  color: blue;
+.progress {
+  height: 40px;
+}
+.progress .progress-bar {
+  padding: 13px;
+  font-size: 16px;
+  color: white;
 }

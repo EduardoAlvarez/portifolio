@@ -50,18 +50,12 @@
                 <div class='col-sm-6'>
                     <h3>Resumo</h3>
                     <p>
-                        Mussum ipsum cacilds, vidis litro abertis. 
-                        Consetis adipiscings elitis. Pra lá , depois 
-                        divoltis porris, paradis. Paisis, filhis, espiritis santis.
-                         Mé faiz elementum girarzis, nisi eros vermeio, 
-                         in elementis mé pra quem é amistosis quis leo. 
-                         Manduma pindureta quium dia nois paga. Sapien in 
-                         monti palavris qui num significa nadis i pareci 
-                         latim. Interessantiss quisso pudia ce receita de 
-                         bolis, mais bolis eu num gostis.
-                    </p>
-                    <hr class="star-light">
-                        <span class="skills">Desenvolvedor Web</span>
+                        Programador Pleno com <?php echo (date(Y)-2011 )?> anos de experiência na área de desenvolvimento de sistemas WEB (PHP/Jquery) e 1 ano com desenvolvimento Mobile(Cordova/JqueryMobile). 
+												Facilidade de trabalhar em equipe, dedicado, autodidata e proativo. 
+												Facilidade para análises problemas e buscar as melhores soluções. 
+												Boa sintaxe, códigos comentados e indentados.
+                    <!--<hr class="star-light">
+                        <span class="skills">Desenvolvedor Web</span>-->
                 </div>
                 <div class='col-sm-6'>
                     <img class="img-responsive img-centered" src="img/profile.png" alt="">
@@ -85,7 +79,7 @@
                     <img class="img-responsive img-centered" src="img/profile.png" alt="">
                 </div>
                   <div class='col-sm-6'>
-                    <h3>About</h3>
+                   <h3>About</h3>
                     <p>  Mé faiz elementum girarzis, nisi eros vermeio, 
                          in elementis mé pra quem é amistosis quis leo. 
                          Manduma pindureta quium dia nois paga. Sapien in 
@@ -152,8 +146,8 @@
                     <hr class="star-light">
                 </div>
             </div>
-            <div class="row">
-                <div class="col-sm-4 portfolio-item">
+            <div class="row">   
+                <div class="col-sm-6 portfolio-item">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -163,17 +157,32 @@
                         <img src="img/portfolio/cabin.png" class="img-responsive " alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/cake.png" class="img-responsive" alt="">
-                    </a>
+                <div class="col-sm-6 portfolio-item">
+                    <p><h4>Senac Eventos</h4></p>
+                    <p>
+                     é faiz elementum girarzis, nisi eros vermeio, 
+                     in elementis mé pra quem é amistosis quis leo. 
+                     Manduma pindureta quium dia nois paga. Sapien in 
+                     monti palavris qui num significa nadis i pareci 
+                     latim. Interessantiss quisso pudia ce receita de 
+                     bolis, mais bolis eu n
+                    </p>
+                    <p><b>Participação</b></p> 
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-success " style="width: 50%">
+                        <div>Programação</div>
+                      </div>
+                      <div class="progress-bar progress-bar-warning " style="width: 25%">
+                        <div>Design</div>
+                      </div>
+                      <div class="progress-bar progress-bar-danger " style="width: 25%">
+                        <div>Banco de dados</div>
+                      </div>
+                    </div>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+            </div>
+            <div class="row" >
+                <div class="col-sm-6 portfolio-item">
                     <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -183,17 +192,32 @@
                         <img src="img/portfolio/circus.png" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/game.png" class="img-responsive" alt="">
-                    </a>
+                <div class="col-sm-6 portfolio-item">
+                    <p><h4>Senac Eventos</h4></p>
+                    <p>
+                     é faiz elementum girarzis, nisi eros vermeio, 
+                     in elementis mé pra quem é amistosis quis leo. 
+                     Manduma pindureta quium dia nois paga. Sapien in 
+                     monti palavris qui num significa nadis i pareci 
+                     latim. Interessantiss quisso pudia ce receita de 
+                     bolis, mais bolis eu n
+                    </p>
+                    <p><b>Participação</b></p> 
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-success " style="width: 10%">
+                        <div>Programação</div>
+                      </div>
+                      <div class="progress-bar progress-bar-warning " style="width: 40%">
+                        <div>Design</div>
+                      </div>
+                      <div class="progress-bar progress-bar-danger " style="width: 50%">
+                        <div>Banco de dados</div>
+                      </div>
+                    </div>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+            </div>
+            <div class="row">
+                <div class="col-sm-6 portfolio-item">
                     <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -203,15 +227,28 @@
                         <img src="img/portfolio/safe.png" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/submarine.png" class="img-responsive" alt="">
-                    </a>
+                 <div class="col-sm-6 portfolio-item">
+                    <p><h4>Senac Eventos</h4></p>
+                    <p>
+                     é faiz elementum girarzis, nisi eros vermeio, 
+                     in elementis mé pra quem é amistosis quis leo. 
+                     Manduma pindureta quium dia nois paga. Sapien in 
+                     monti palavris qui num significa nadis i pareci 
+                     latim. Interessantiss quisso pudia ce receita de 
+                     bolis, mais bolis eu n
+                    </p>
+                    <p><b>Participação</b></p> 
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-success " style="width: 30%">
+                        <div>Programação</div>
+                      </div>
+                      <div class="progress-bar progress-bar-warning " style="width: 35%">
+                        <div>Design</div>
+                      </div>
+                      <div class="progress-bar progress-bar-danger " style="width: 35%">
+                        <div>Banco de dados</div>
+                      </div>
+                    </div>
                 </div>
             </div>
         </div>

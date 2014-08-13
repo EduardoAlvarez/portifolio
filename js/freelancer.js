@@ -5,6 +5,15 @@
  */
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
+
+function rgb2hex(rgb) {
+    rgb = rgb.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/);
+    function hex(x) {
+        return ("0" + parseInt(x).toString(16)).slice(-2);
+    }
+    return "#" + hex(rgb[1]) + hex(rgb[2]) + hex(rgb[3]);
+}
+
 $(function() {
     $('.page-scroll a').bind('click', function(event) {
         var $anchor = $(this);
@@ -30,6 +39,17 @@ $(function() {
 $('body').scrollspy({
     target: '.navbar-fixed-top'
 })
+
+$('body').on('activate.bs.scrollspy', function () {
+    $.each($(".page-scroll a") , function(){
+        $(this).css('background-color',  $(".navbar-default").css('background-color') );
+    })
+    var id = $(".page-scroll.active").find('a').attr('href');
+    var hexa = rgb2hex($(id).css('background-color'))
+    $(".active a").css('background-color' , hexa);
+    $(".active").css('border-bottom-color' , hexa);
+})
+
 
 // Closes the Responsive Menu on Menu Item Click
 $('.navbar-collapse ul li a').click(function() {
