@@ -23,7 +23,7 @@ a.active {
 	outline: none;
 }
 
-/*degrade*/
+/*degrade
 #about{
 	background-color:darken(@background, 5%);
 }
@@ -38,15 +38,28 @@ a.active {
 }
 #contact{
 	background-color:darken(@background, 25%);			
+}*/
+section{
+	background:@background;
 }
+
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 	font-weight: 700;
 }
-h3{
-	text-align: center;
+h3 {
+	text-align:center;
+}
+
+.bagdes{
+	margin:0px auto;	
+	text-align:center;
+	div, img{
+		padding: 0px 2%;
+		display: inline-block;
+	}
 }
 
 hr.star-light,

@@ -75,18 +75,18 @@
     <section  id="about">
         <div class="container">
             <div class="row">
-                  <div class='col-sm-6'>
-                    <img class="img-responsive img-centered" src="img/profile.png" alt="">
-                </div>
-                  <div class='col-sm-6'>
-                   <h3>About</h3>
-                    <p>  Mé faiz elementum girarzis, nisi eros vermeio, 
-                         in elementis mé pra quem é amistosis quis leo. 
-                         Manduma pindureta quium dia nois paga. Sapien in 
-                         monti palavris qui num significa nadis i pareci 
-                         latim. Interessantiss quisso pudia ce receita de 
-                         bolis, mais bolis eu num gostis.</p>
+                <div class='col-sm-6'>
+                    <div class='col-sm-6'>
+                      <h3>Vive em</h3>
+                      <img class="img-responsive img-centered" src="img/profile.png" alt="">
+                      <p class='text-center'> São Paulo</p>
                     </div>
+                  </div>
+                  <div class='col-sm-6'>
+                    <h3>Hobbies</h3>
+                    <img class="img-responsive img-centered" src="img/profile.png" alt="">
+                    <p class='text-center'>Filmes e series</p>
+                  </div>
                 </div>
             </div>
              
@@ -95,19 +95,17 @@
     <!-- About Section -->
     <section  class="success" id="conhecimento">
         <div class="container">
+          <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Conhecimento</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
             <div class="row">
-                <div class='col-sm-6'>
-                    <h3>About</h3>
-                    <p>  Mé faiz elementum girarzis, nisi eros vermeio, 
-                         in elementis mé pra quem é amistosis quis leo. 
-                         Manduma pindureta quium dia nois paga. Sapien in 
-                         monti palavris qui num significa nadis i pareci 
-                         latim. Interessantiss quisso pudia ce receita de 
-                         bolis, mais bolis eu num gostis.</p>
-                </div>  
-                
-                <div class='col-sm-6'>
-                    <img class="img-responsive img-centered" src="img/profile.png" alt="">
+                    <div width='50%' class='bagdes'>
+                      <img class="img-responsive img-centered" src="img/profile.png" alt="">
+                      <img class="img-responsive img-centered" src="img/profile.png" alt="">
+                    </div>
                 </div>
             </div>
              
@@ -117,21 +115,24 @@
     <!-- About Section -->
     <section  id="curso">
         <div class="container">
-           
-            <div class="row"> 
-             <div class='col-sm-6'>
-                <img class="img-responsive img-centered" src="img/profile.png" alt="">
+           <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Cursos</h2>
+                    <hr class="star-light">
+                </div>
             </div>
-             <div class='col-sm-6'>
-                    <h3>About</h3>
-                    <p>  Mé faiz elementum girarzis, nisi eros vermeio, 
-                         in elementis mé pra quem é amistosis quis leo. 
-                         Manduma pindureta quium dia nois paga. Sapien in 
-                         monti palavris qui num significa nadis i pareci 
-                         latim. Interessantiss quisso pudia ce receita de 
-                         bolis, mais bolis eu num gostis.</p>
-                </div> 
-             
+            <div class='row'>
+                <div class='col-sm-6'>
+                    <img class="img-responsive img-centered" src="img/profile.png" alt="">
+                </div>
+                <div class='col-sm-6'>
+                      <h4>HTML5</h4>
+                      <h4>CafeLearn</h4>
+                      <p>10Horas</p>
+                      <p>Novas Tags do Html 5, semantica com HTML5, MetasTags </p>
+                      <a href='#certificado_html'>Certificado</a>
+                </div>
+            </div>
         </div>
     </section>
 

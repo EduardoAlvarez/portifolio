@@ -17,21 +17,24 @@ a.active {
   color: #03a3a9;
   outline: none;
 }
-/*degrade*/
-#about {
-  background-color: #f2f2f2;
+/*degrade
+#about{
+	background-color:darken(@background, 5%);
 }
-#conhecimento {
-  background-color: #e6e6e6;
+#conhecimento{
+	background-color:darken(@background, 10%);	
 }
-#curso {
-  background-color: #d9d9d9;
+#curso{
+	background-color:darken(@background, 15%);		
 }
-#portfolio {
-  background-color: #cccccc;
+#portfolio{
+	background-color:darken(@background, 20%);			
 }
-#contact {
-  background-color: #bfbfbf;
+#contact{
+	background-color:darken(@background, 25%);			
+}*/
+section {
+  background: #ffffff;
 }
 h1,
 h2,
@@ -45,6 +48,15 @@ h6 {
 }
 h3 {
   text-align: center;
+}
+.bagdes {
+  margin: 0px auto;
+  text-align: center;
+}
+.bagdes div,
+.bagdes img {
+  padding: 0px 2%;
+  display: inline-block;
 }
 hr.star-light,
 hr.star-primary {

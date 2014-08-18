@@ -5,7 +5,13 @@
  */
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
-
+function getContrastYIQ(hexcolor){
+    var r = parseInt(hexcolor.substr(0,2),16);
+    var g = parseInt(hexcolor.substr(2,2),16);
+    var b = parseInt(hexcolor.substr(4,2),16);
+    var yiq = ((r*299)+(g*587)+(b*114))/1000;
+    return (yiq >= 128) ? 'black' : 'white';
+}
 function rgb2hex(rgb) {
     rgb = rgb.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/);
     function hex(x) {
@@ -43,11 +49,15 @@ $('body').scrollspy({
 $('body').on('activate.bs.scrollspy', function () {
     $.each($(".page-scroll a") , function(){
         $(this).css('background-color',  $(".navbar-default").css('background-color') );
+        $(this).css('color','white');
     })
     var id = $(".page-scroll.active").find('a').attr('href');
     var hexa = rgb2hex($(id).css('background-color'))
     $(".active a").css('background-color' , hexa);
     $(".active").css('border-bottom-color' , hexa);
+    var hexaNoHash = hexa.substring(1);
+    var newTextColor = getContrastYIQ(hexaNoHash);
+    $(".active a").css('color',newTextColor);
 })
 
 
