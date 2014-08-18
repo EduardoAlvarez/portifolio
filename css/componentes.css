@@ -2,6 +2,22 @@ header .btn {
   background: #0022ff;
 }
 
+.star {
+  width: 32px;
+  height: 32px;
+  background: url('../img/stars.png');
+  display: inline-block;
+}
+.star.full {
+  background-position: -64px 0px;
+}
+.star.half {
+  background-position: -32px 0px;
+}
+.star.empty {
+  background-position: 0px 0px;
+}
+
 .progress {
   height: 40px;
 }

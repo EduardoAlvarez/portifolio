@@ -102,9 +102,24 @@
                 </div>
             </div>
             <div class="row">
-                    <div width='50%' class='bagdes'>
-                      <img class="img-responsive img-centered" src="img/profile.png" alt="">
-                      <img class="img-responsive img-centered" src="img/profile.png" alt="">
+                    <div class='col-lg-12 text-center'>
+                      <div class='col-sm-6'>
+                          <img class="img-responsive img-centered" src="img/html.png" alt="">
+                          <div class='stars'>
+                              <i class='star full'></i>                              
+                              <i class='star full'></i>                              
+                              <i class='star half'></i>                              
+                          </div>
+                      </div>
+                      <div class='col-sm-6'>
+                          <img class="img-responsive img-centered" src="img/css.png" alt="">
+                          <div class='stars'>
+                              <i class='star full'></i>                              
+                              <i class='star full'></i>                              
+                              <i class='star empty'></i>                              
+                          </div>
+                      </div>
+
                     </div>
                 </div>
             </div>
