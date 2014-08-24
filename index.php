@@ -45,27 +45,23 @@
     </nav>
     <!-- Header -->
     <header >
-        <div class="container">
-            <div class="row">
-                <div class='col-sm-6'>
-                    <h3>Resumo</h3>
-                    <p>
-                        Programador Pleno com <?php echo (date(Y)-2011 )?> anos de experiência na área de desenvolvimento de sistemas WEB (PHP/Jquery) e 1 ano com desenvolvimento Mobile(Cordova/JqueryMobile). 
-												Facilidade de trabalhar em equipe, dedicado, autodidata e proativo. 
-												Facilidade para análises problemas e buscar as melhores soluções. 
-												Boa sintaxe, códigos comentados e indentados.
-                    <!--<hr class="star-light">
-                        <span class="skills">Desenvolvedor Web</span>-->
-                </div>
-                <div class='col-sm-6'>
-                    <img class="img-responsive img-centered" src="img/profile.png" alt="">
-                    <div class="intro-text">
-                        
-                        
-                    </div>
-                </div>
-
-            </div>
+    	<div class='container' style='padding-top:100;'>
+          <div class="row">
+              <div class='col-sm-6'>
+                  <h3>Resumindo</h3>
+                  	<p>
+                      Sou Desenvolvedor Pleno com <?php echo (date(Y)-2011 )?> anos de experiência na área de desenvolvimento de sistemas WEB  
+                      e <?php echo (date(Y)-2011 )?> ano com desenvolvimento Mobile.<br>
+											Facilidade de trabalhar em equipe, dedicado, autodidata e proativo. <br>
+											Facilidade para análises problemas e buscar as melhores soluções. <br>
+											Boa sintaxe, códigos comentados e indentados.	<br>
+										</p>
+              </div>
+              <div class='col-sm-6'>
+                  <img class="img-responsive img-centered" src="img/eduardoalvarez.png" alt="Eduardo Alvarez" title='Eduardo Alvarez'>
+                  <div class="intro-text"></div>
+             </div>
+        	</div>
         </div>
     </header>
 
@@ -151,7 +147,7 @@
                       </div>
                   </div>
                   <div class='col-sm-4'>
-                      <img class="img-responsive img-centered" src="img/js.png" alt="">
+                      <img class="img-responsive img-centered" src="img/javascript.png" alt="">
                       <div class='stars'>
                           <i class='star full'></i>                              
                           <i class='star half'></i>                              

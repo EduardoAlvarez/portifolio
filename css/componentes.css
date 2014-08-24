@@ -2,20 +2,27 @@ header .btn {
   background: #0022ff;
 }
 
-.star {
+.stars {
+  margin-top: -17px;
+}
+.stars .star {
   width: 32px;
   height: 32px;
   background: url('../img/stars.png');
   display: inline-block;
 }
-.star.full {
+.stars .star.full {
   background-position: -64px 0px;
 }
-.star.half {
+.stars .star.half {
   background-position: -32px 0px;
 }
-.star.empty {
+.stars .star.empty {
   background-position: 0px 0px;
+}
+.stars .star:last-child,
+.stars .star:first-child {
+  margin-bottom: 5px;
 }
 
 .progress {

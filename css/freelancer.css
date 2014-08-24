@@ -103,9 +103,8 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-  background: #ffffff;
-  /*background: @brand-success;
-	color: white;*/
+  background: #0a559d;
+  color: white;
 }
 header .container {
   padding-top: 100px;

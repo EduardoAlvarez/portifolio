@@ -1,16 +1,21 @@
-.star{
-	width:32px;
-	height:32px;
-	background:url('../img/stars.png');
-	display:inline-block;
-	&.full{
-		background-position:-64px 0px;
+.stars{
+	margin-top:-17px;
+	.star{
+		width:32px;
+		height:32px;
+		background:url('../img/stars.png');
+		display:inline-block;
+		&.full{
+			background-position:-64px 0px;
+		}
+		&.half{
+			background-position:-32px 0px;
+		}
+		&.empty{
+			background-position:0px 0px;
+		}
+		&:last-child , &:first-child ,{
+			margin-bottom:5px;
+		}
 	}
-	&.half{
-		background-position:-32px 0px;
-	}
-	&.empty{
-		background-position:0px 0px;
-	}
-
 }
