@@ -77,13 +77,13 @@
             <div class="row">
                 <div class='col-sm-6'>
                       <h3>Vive em</h3>
-                      <img class="img-responsive img-centered" src="img/imagem-saopaulo.jpg" alt="">
-                      <p class='text-center'> São Paulo</p>
+                      <img class="img-responsive img-centered" src="img/masp.png" alt="">
+                      <p class='text-center'>São Paulo</p>
                   </div>
                   <div class='col-sm-6'>
-                    <h3>Hobbies</h3>
-                    <img class="img-responsive img-centered" src="img/imagem-hobby1.jpg" alt="">
-                    <p class='text-center'>Filmes e series</p>
+                    <h3>Seus hobbies são:</h3>
+                    <img class="img-responsive img-centered" src="img/filme.png" alt="">
+                    <p class='text-center'>Assistir à filmes e séries</p>
                   </div>
                 </div>
             </div>
@@ -92,38 +92,152 @@
     </section>
     <!-- About Section -->
     <section  class="success" id="conhecimento">
-        <div class="container">
           <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Conhecimento</h2>
-                    <hr class="star-light">
-                </div>
+	            <div class="col-lg-12 text-center">
+	                <h3>Seus conhecimetos são, Multidiciplinar</h3>
+	                <hr class="star-light">
+	            </div>
             </div>
             <div class="row">
-                    <div class='col-lg-12 text-center'>
-                      <div class='col-sm-6'>
-                          <img class="img-responsive img-centered" src="img/html.png" alt="">
-                          <div class='stars'>
-                              <i class='star full'></i>                              
-                              <i class='star full'></i>                              
-                              <i class='star half'></i>                              
-                          </div>
+                <div class='col-lg-12 text-center'>
+                  <div class='col-sm-4'>
+                      <img class="img-responsive img-centered" src="img/code.png" alt="">
+                      <div class='stars'>
+                          <i class='star full'></i>                              
+                          <i class='star full'></i>                              
+                          <i class='star empty'></i>                              
                       </div>
-                      <div class='col-sm-6'>
-                          <img class="img-responsive img-centered" src="img/css.png" alt="">
-                          <div class='stars'>
-                              <i class='star full'></i>                              
-                              <i class='star full'></i>                              
-                              <i class='star empty'></i>                              
-                          </div>
+                  </div>
+                  <div class='col-sm-4'>
+                      <img class="img-responsive img-centered" src="img/banco.png" alt="">
+                      <div class='stars'>
+                          <i class='star full'></i>                              
+                          <i class='star half'></i>                              
+                          <i class='star empty'></i>                              
                       </div>
-
-                    </div>
+                  </div>
+                  <div class='col-sm-4'>
+                      <img class="img-responsive img-centered" src="img/animation.png" alt="">
+                      <div class='stars'>
+                          <i class='star full'></i>                              
+                          <i class='star half'></i>                              
+                          <i class='star empty'></i>                              
+                      </div>
+                  </div>
                 </div>
             </div>
-             
-        </div>
+             <div class="row">
+	            <div class="col-lg-12 text-center">
+	                <h3>Frontend</h3>
+	                <hr class="star-light">
+	            </div>
+            </div>
+            <div class="row">
+                <div class='col-lg-12 text-center'>
+                  <div class='col-sm-4'>
+                      <img class="img-responsive img-centered" src="img/html.png" alt="">
+                      <div class='stars'>
+                          <i class='star full'></i>                              
+                          <i class='star full'></i>                              
+                          <i class='star half'></i>                              
+                      </div>
+                  </div>
+                  <div class='col-sm-4'>
+                      <img class="img-responsive img-centered" src="img/css.png" alt="">
+                      <div class='stars'>
+                          <i class='star full'></i>                              
+                          <i class='star half'></i>                              
+                          <i class='star empty'></i>                              
+                      </div>
+                  </div>
+                  <div class='col-sm-4'>
+                      <img class="img-responsive img-centered" src="img/js.png" alt="">
+                      <div class='stars'>
+                          <i class='star full'></i>                              
+                          <i class='star half'></i>                              
+                          <i class='star empty'></i>                              
+                      </div>
+                  </div>
+                </div>
+            </div>
+			<div class="row">
+	            <div class="col-lg-12 text-center">
+	                <h3>Backend</h3>
+	                <hr class="star-light">
+	            </div>
+            </div>
+            <div class="row">
+	            <div class='col-lg-12 text-center'>
+	              <div class='col-sm-4'>
+	                  <img class="img-responsive img-centered" src="img/php.png" alt="">
+	                  <div class='stars'>
+	                      <i class='star full'></i>                              
+	                      <i class='star full'></i>                              
+	                      <i class='star empty'></i>                              
+	                  </div>
+	              </div>
+	              <div class='col-sm-4'>
+	                  <img class="img-responsive img-centered" src="img/java.png" alt="">
+	                  <div class='stars'>
+	                      <i class='star half'></i>                              
+	                      <i class='star empty'></i>                              
+	                      <i class='star empty'></i>                              
+	                  </div>
+	              </div>
+	              <div class='col-sm-4'>
+	                  <img class="img-responsive img-centered" src="img/mysql.png" alt="">
+	                  <div class='stars'>
+	                      <i class='star full'></i>                              
+	                      <i class='star full'></i>                              
+	                      <i class='star empty'></i>                              
+	                  </div>
+	              </div>
+	            </div>
+	        </div>
+	        <div class="row">
+	            <div class="col-lg-12 text-center">
+	                <h3>Além de conhecimentos específicos, também conhece:</h3>
+	                <hr class="star-light">
+	            </div>
+            </div>
+            <div class="row">
+	            <div class='col-lg-12 text-center'>
+	              <div class='col-sm-3'>
+	                  <img class="img-responsive img-centered" src="img/php.png" alt="">
+	                  <div class='stars'>
+	                      <i class='star full'></i>                              
+	                      <i class='star full'></i>                              
+	                      <i class='star empty'></i>                              
+	                  </div>
+	              </div>
+	              <div class='col-sm-3'>
+	                  <img class="img-responsive img-centered" src="img/java.png" alt="">
+	                  <div class='stars'>
+	                      <i class='star half'></i>                              
+	                      <i class='star empty'></i>                              
+	                      <i class='star empty'></i>                              
+	                  </div>
+	              </div>
+	              <div class='col-sm-3'>
+	                  <img class="img-responsive img-centered" src="img/mysql.png" alt="">
+	                  <div class='stars'>
+	                      <i class='star full'></i>                              
+	                      <i class='star full'></i>                              
+	                      <i class='star empty'></i>                              
+	                  </div>
+	              </div>
+	              <div class='col-sm-3'>
+	                  <img class="img-responsive img-centered" src="img/mysql.png" alt="">
+	                  <div class='stars'>
+	                      <i class='star full'></i>                              
+	                      <i class='star full'></i>                              
+	                      <i class='star empty'></i>                              
+	                  </div>
+	              </div>
+	            </div>
+	        </div>
     </section>
+    
 
     <!-- About Section -->
     <section  id="curso">
