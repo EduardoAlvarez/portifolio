@@ -97,7 +97,10 @@
             <div class="row">
                 <div class='col-lg-12 text-center'>
                   <div class='col-sm-4'>
-                      <img class="img-responsive img-centered" src="img/code.png" alt="">
+                      <figure>
+                        <figcaption>Programação</figcaption>
+                        <img class="img-responsive img-centered" src="img/code.png" alt="">
+                      </figure>
                       <div class='stars'>
                           <i class='star full'></i>                              
                           <i class='star full'></i>                              
@@ -105,7 +108,10 @@
                       </div>
                   </div>
                   <div class='col-sm-4'>
-                      <img class="img-responsive img-centered" src="img/banco.png" alt="">
+                      <figure>
+                        <figcaption>Modelagem de dados</figcaption>
+                        <img class="img-responsive img-centered" src="img/banco.png" alt="">
+                      </figure>
                       <div class='stars'>
                           <i class='star full'></i>                              
                           <i class='star half'></i>                              
@@ -113,7 +119,10 @@
                       </div>
                   </div>
                   <div class='col-sm-4'>
-                      <img class="img-responsive img-centered" src="img/animation.png" alt="">
+                      <figure>
+                        <figcaption>Animação</figcaption>
+                        <img class="img-responsive img-centered" src="img/animation.png" alt="">
+                      </figure> 
                       <div class='stars'>
                           <i class='star full'></i>                              
                           <i class='star half'></i>                              
@@ -131,7 +140,10 @@
             <div class="row">
                 <div class='col-lg-12 text-center'>
                   <div class='col-sm-4'>
-                      <img class="img-responsive img-centered" src="img/html.png" alt="">
+                      <figure>
+                        <figcaption>Html5</figcaption>
+                        <img class="img-responsive img-centered" src="img/html.png" alt="">
+                      </figure>
                       <div class='stars'>
                           <i class='star full'></i>                              
                           <i class='star full'></i>                              
@@ -139,7 +151,10 @@
                       </div>
                   </div>
                   <div class='col-sm-4'>
-                      <img class="img-responsive img-centered" src="img/css.png" alt="">
+                      <figure>
+                        <figcaption>Css3</figcaption>
+                        <img class="img-responsive img-centered" src="img/css.png" alt="">
+                      </figure>
                       <div class='stars'>
                           <i class='star full'></i>                              
                           <i class='star half'></i>                              
@@ -147,10 +162,13 @@
                       </div>
                   </div>
                   <div class='col-sm-4'>
-                      <img class="img-responsive img-centered" src="img/javascript.png" alt="">
+                      <figure>
+                        <figcaption>JavaScript</figcaption>
+                        <img class="img-responsive img-centered" src="img/javascript.png" alt="">
+                      </figure>
                       <div class='stars'>
                           <i class='star full'></i>                              
-                          <i class='star half'></i>                              
+                          <i class='star full'></i>                              
                           <i class='star empty'></i>                              
                       </div>
                   </div>
@@ -165,15 +183,21 @@
             <div class="row">
 	            <div class='col-lg-12 text-center'>
 	              <div class='col-sm-4'>
-	                  <img class="img-responsive img-centered" src="img/php.png" alt="">
-	                  <div class='stars'>
+	                  <figure>
+                      <figcaption>PHP</figcaption>
+                      <img class="img-responsive img-centered" src="img/php.png" alt="">
+                    </figure> 
+	                  <div class='s tars'>
 	                      <i class='star full'></i>                              
 	                      <i class='star full'></i>                              
 	                      <i class='star empty'></i>                              
 	                  </div>
 	              </div>
 	              <div class='col-sm-4'>
-	                  <img class="img-responsive img-centered" src="img/java.png" alt="">
+                    <figure>
+                      <figcaption>Java</figcaption>
+                      <img class="img-responsive img-centered" src="img/java.png" alt="">
+                    </figure>
 	                  <div class='stars'>
 	                      <i class='star half'></i>                              
 	                      <i class='star empty'></i>                              
@@ -181,7 +205,10 @@
 	                  </div>
 	              </div>
 	              <div class='col-sm-4'>
-	                  <img class="img-responsive img-centered" src="img/mysql.png" alt="">
+                    <figure>
+                      <figcaption>Mysql</figcaption>
+                      <img class="img-responsive img-centered" src="img/mysql.png" alt="">
+                    </figure>
 	                  <div class='stars'>
 	                      <i class='star full'></i>                              
 	                      <i class='star full'></i>                              
@@ -199,7 +226,10 @@
             <div class="row">
 	            <div class='col-lg-12 text-center'>
 	              <div class='col-sm-3'>
-	                  <img class="img-responsive img-centered" src="img/php.png" alt="">
+                    <figure>
+                      <figcaption>Drupal</figcaption>
+                      <img class="img-responsive img-centered" src="img/php.png" alt="">
+                    </figure>
 	                  <div class='stars'>
 	                      <i class='star full'></i>                              
 	                      <i class='star full'></i>                              
@@ -207,7 +237,10 @@
 	                  </div>
 	              </div>
 	              <div class='col-sm-3'>
-	                  <img class="img-responsive img-centered" src="img/java.png" alt="">
+                    <figure>
+                      <figcaption>Mysql</figcaption>
+  	                  <img class="img-responsive img-centered" src="img/java.png" alt="">
+                    </figure>
 	                  <div class='stars'>
 	                      <i class='star half'></i>                              
 	                      <i class='star empty'></i>                              
@@ -215,7 +248,10 @@
 	                  </div>
 	              </div>
 	              <div class='col-sm-3'>
-	                  <img class="img-responsive img-centered" src="img/mysql.png" alt="">
+                    <figure>
+                      <figcaption>Flash</figcaption>
+                      <img class="img-responsive img-centered" src="img/flash.png" alt="">
+                    </figure>
 	                  <div class='stars'>
 	                      <i class='star full'></i>                              
 	                      <i class='star full'></i>                              
@@ -223,7 +259,10 @@
 	                  </div>
 	              </div>
 	              <div class='col-sm-3'>
-	                  <img class="img-responsive img-centered" src="img/mysql.png" alt="">
+	                  <figure>
+                      <figcaption>Photoshop</figcaption>
+                      <img class="img-responsive img-centered" src="img/mysql.png" alt="">
+                    </figure>
 	                  <div class='stars'>
 	                      <i class='star full'></i>                              
 	                      <i class='star full'></i>                              
